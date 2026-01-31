@@ -1,0 +1,5 @@
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usart.h:3504:22:LL_USART_EnableIT_TXE_TXFNF	2
+../Core/Src/openloop_isr.c:36:6:init_sine_lut	2
+../Core/Src/openloop_isr.c:44:21:sin_from_lut	3
+../Core/Src/openloop_isr.c:55:6:motor_control_isr	4
+../Core/Src/openloop_isr.c:111:6:update_open_loop_params	1
