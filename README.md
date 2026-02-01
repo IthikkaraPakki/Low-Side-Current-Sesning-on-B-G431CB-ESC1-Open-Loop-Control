@@ -19,7 +19,9 @@ Only 2 phase current are read in the project. This is because the third current 
 
 * G = gain of amplifier
 
-* $V = \frac{Raw\:ADC\:Value}{4096\:*\:G}$,  Ignore G or keep it 1 if no amplifier is used
+* Vref = reference voltage into adc(here 3.3v)
+
+* $V = \frac{Raw ADC Value}{4096 * G} * Vref$,  Ignore G or keep it 1 if no amplifier is used
 
 * $I = \frac{V}{R}$ 
 
